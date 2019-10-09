@@ -2,6 +2,24 @@ import java.util.HashSet;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+private static HashSet<String> IterateClues(BufferedReader reader, HashSet<String> items, HashSet<String> clues) {
+
+        /**
+            TODO
+        **/
+
+        BufferedReader reader = reader;
+        HashSet<String> items = items
+        HashSet<String> clues = clues
+        HashSet<String> solution = new HashSet<String>();
+
+        Iterator iterator = clues.iterator();
+        for (String word : clues){
+            solution.addAll(word);
+        }
+}
+
+
 class SolvePuzzle{ 
   public static void main(String[] args) {
      HashSet<String> items = new HashSet<String>();
@@ -11,12 +29,6 @@ class SolvePuzzle{
 
      int count = 0;
      int i = 0;
- 
-     /**
-      Reads the file for the words and clues. Seperates and adds them into two different HashSets.
-      Input is read as string, but also converted to char in order to later use the 'charAt' method.
-      'charAt' is used to read the first character of the line in order to differentiate between objects and clues.
-     **/
      
      try {
         reader = new BufferedReader(new FileReader("puzzle.txt");
@@ -60,11 +72,9 @@ class SolvePuzzle{
         reader.close();
      }
 
-     /**
-        TODO - iterating through clues - probably a seperate method
-     **/
-    
+      
       System.out.println("Solution: ");
+      System.out.println(this.IterateClues(reader, items, clues));
         
      }
   }

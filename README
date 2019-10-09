@@ -1,0 +1,6 @@
+Project code so far consists of a main java file with a main method and a clue iterator method.
+Alex's original code has been modified to use two seperate methods and a BufferReader instead of a Scanner.
+Iterator method currently needs to be finished and main method checked for errors. May be seperated later into a different class if needed.
+File has not been tested and compiled yet in a java environment.
+
+- Kevin
