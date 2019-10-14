@@ -1,6 +1,3 @@
-Project code so far consists of a main java file with a main method and a clue iterator method.
-Alex's original code has been modified to use two seperate methods and a BufferReader instead of a Scanner.
-Iterator method currently needs to be finished and main method checked for errors. May be seperated later into a different class if needed.
-File has not been tested and compiled yet in a java environment.
-
-- Kevin
+Program is currently non-functional but contains all implemented logic.
+Consists of a main method for printing the solution, SolvePuzzle method for 
+finding the solution, and a PrintLog method for user feedback on matching pairs.
